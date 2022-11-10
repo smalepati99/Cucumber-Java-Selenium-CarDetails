@@ -2,7 +2,7 @@
 
 ## Notes:
 
-1. The task was given to develop a test automation framework using Selenium, Java & Cucumber
+1. Developed this test automation framework using Selenium, Java & Cucumber
 2. The Output file - "car_output_v1.txt" is not as such as an OUTPUT FILE with result output details but this "car_output_v1.txt" is file with EXPECTED RESULTS to be compared against what is displayed in the Cazoo website when input and searched with a Car registration number to verify if the details shown in the Cazoo matches the pertaining details in the 'car_output_v1.txt' for the given registration number
 3. Because of the reason outlined in above Point No.2 and based on the request to come up with IMPROVEMENTS, the content in the "car_output_v1.txt" file i.e., EXPECTED RESULTS are copied as they are on to the Feature File (Cucumber Data table). It is logical to have the expected results in the feature files, else the very purpose of the BDD Cucumber is not achieved.
 4. There are many reasons to use a data table when testing:
