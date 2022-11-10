@@ -7,9 +7,9 @@ Feature: Check the Car details in Cazoo
   @smoke @carDetailsComparison
   Scenario: Compare the Car details between the Cazoo and below datatable by extracting the Car Registration Numbers from Input File
     Given I navigate to carzoo value my car page
-    And I see title of the page is "Value your car with our free car valuation calculator | Cazoo"
-    When I see header of the page is "Value my car"
-    And I input the registration numbers in the "inputFilePath" and check the displayed car details are correct as follow
+    When I see title of the page is "Value your car with our free car valuation calculator | Cazoo"
+    And I see header of the page is "Value my car"
+    Then I input the registration numbers in the "inputFilePath" and check the displayed car details are correct as follow
       | REGISTRATION | MAKE       | MODEL                                                                   |
       | AD58VNF      | BMW        | 1 Series 2.0 120d M Sport Coupe 2dr Diesel Manual (128 g/km, 177 bhp)   |
       | BW57BOF      | Toyota     | Yaris 1.0 VVT-i T2 Hatchback 3dr Petrol Manual (127 g/km, 67 bhp)       |
