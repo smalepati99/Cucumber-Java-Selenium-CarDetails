@@ -68,10 +68,10 @@ public class CarValuationPageSteps {
                         System.out.println("expectedCarDetails = \n" + expectedCarDetails);
                         System.out.println("\n\n\n");
 
-//                        Assert.assertEquals(actualCarDetails, expectedCarDetails);
-//                        Assert.assertThat(actualCarDetails, StringContains.containsString(expectedCarRegistrationNumber)); //assert car reg number
-//                        Assert.assertThat(actualCarDetails, StringContains.containsString(expectedCarMake)); //assert car reg make
-//                        Assert.assertThat(actualCarDetails, StringContains.containsString(expectedCarModel));//assert car reg model
+                        Assert.assertEquals(actualCarDetails, expectedCarDetails);
+                        Assert.assertThat(actualCarDetails, StringContains.containsString(expectedCarRegistrationNumber)); //assert car reg number
+                        Assert.assertThat(actualCarDetails, StringContains.containsString(expectedCarMake)); //assert car reg make
+                        Assert.assertThat(actualCarDetails, StringContains.containsString(expectedCarModel));//assert car reg model
                     }
                 });
     }
