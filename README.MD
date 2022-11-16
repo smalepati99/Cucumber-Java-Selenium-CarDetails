@@ -1,4 +1,4 @@
-# Car Valuation - Car Details Check - BDD-Cucumber/Selenium based Test Automation Framework
+# Car Details Check - BDD-Cucumber/Selenium based Test Automation Framework
 
 ## Notes:
 
